@@ -1,0 +1,304 @@
+@media screen and (max-width:1247px) {
+
+    .lateral-menu {
+        list-style: none;
+        font-family: "MultiBold";
+        margin-left: 8%;
+        color: #f2f8fa;
+        font-size: 13px;
+    }
+
+    .whiteDiv {
+        background-color: #f2f8fa;
+        width: 92%;
+        height: 140px;
+        margin-left: 53px;
+        margin-top: 53px;
+        z-index: 4;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+
+    .photo {
+        margin-top: -3%;
+        border-radius: 150px;
+        height: 150px;
+        width: 150px;
+        box-shadow: 0px 0px 5px 3px #BDC3C7;
+        margin-left: 3%;
+    }
+
+    .info {
+        margin-left: 3%;
+    }
+
+    .photoProfil {
+        width: inherit;
+    }
+
+    .quote p {
+        display: inline;
+    }
+    
+    .quote {
+        margin-top: 6%;
+        font-family: "SitkaI";
+        font-size: 14px;
+        opacity: 0.2;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quoteSignLeft {
+        margin-left: -8%;
+        align-self: flex-start;
+        margin-bottom: -8%;
+        line-height: 1.2;
+    }
+    
+    .quoteSignRight {
+       margin-left: 100%;
+       margin-right: -8%; 
+       margin-top:  -8%;
+       align-self: flex-end;
+    }
+    
+    .additionalInfo {
+        font-family: "MultiBold";
+        font-size: 10px;
+        color: #747474;
+        margin-right: 2%;
+        padding-left: 2%;
+    }
+    
+    .profession {
+        font-family: "MultiBold";
+        margin-top: -7%;
+        margin-left: 3%;
+        color: #747474;
+        font-size: 15px;
+    }
+    
+    
+    .quotePart1 {
+        line-height: 1.2;
+    }
+    
+    .quotePart2 {
+        margin-left: 0%;
+        margin-top: -5%;
+    }
+    
+    .infoGothic {
+        font-family: "MultiBold";
+        margin-left: -1%;
+        text-indent: -20px;
+        font-size: 20px;
+    }
+
+    .content {
+        margin: auto;
+        margin-top:10px;
+        margin-left: 4%;
+        width: 92%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        z-index: 4;
+    }
+    
+    .title {
+        margin: auto;
+        font-family: 'Tahoma';
+        font-weight: bold;
+        font-size: 30px;
+        opacity: 0.5;
+        color:#c3c8c9;
+        margin-top: 3%;
+    }
+    
+    .formation {
+        padding-top: 3%;
+        margin-top: 1%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        height: 250px;
+        width: 92%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .studies {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    
+    .study {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .diplome {
+        font-family: "MultiBold";
+        font-size: 12px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .diplomeIcon {
+        margin-left: 20%;
+        height: 100px;
+        width: 100px;
+        opacity: 0.7;
+        align-self: center;
+    }
+    
+    .diplomeIcon:hover {
+        opacity: 1;
+    }
+    
+    .skills {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: auto;
+        margin-top: 1%;
+        padding-top: 3%;
+        margin-left: 20%;
+        z-index: 4;
+        background-color: #f2f8fa;
+        height: 250px;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .skillsGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .skillsLeft {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .technologie {
+        display: inline-block;
+        width: 270px;
+        font-family: "MultiBold";
+        margin-right: 2em;
+    }
+    
+    .skillsRight {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skill {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fullProgressBar {
+        height: 20px;
+        width: 100%;
+        background-color: #dadada;
+        margin-left: 30px;
+    }
+    
+    .progressBar {
+        height: 20px;
+        width: 70%;
+        background-color: #1abc9c;
+    }
+    
+    .experience {
+        padding-top: 3%;
+        padding-right: 6%;
+        margin-top: 1%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        height: 300px;
+        width: 92%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .entreprises {
+        margin: auto;
+        margin-left: 2%;
+        padding-right: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .entreprise {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
+    .exp {
+        text-align: center;
+        font-family: "MultiBold";
+    }
+    
+    .proj {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+    }
+    
+    .year {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+    }
+    
+    .societe {
+        margin-left: 25%;
+        margin-top: 5%;
+        padding-bottom: 3%;
+        width: 250px;
+        height: 80px;
+        opacity: 0.5;
+    }
+    
+    .societe:hover {
+        opacity: 1;
+    }
+    
+    .redFooter {
+        margin-top: 2%;
+        background-color: #e74c3c;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+    }
+    
+    .socialMedia {
+        margin-top: 2.5%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        z-index: 4;
+    }
+    
+    .iconSocial {
+        height: 30px;
+        width: 30px;
+        opacity: 0.4;
+        margin-left: 1%;
+    }
+    
+    .iconSocial:hover {
+        opacity: 1;
+    }
+    
+}

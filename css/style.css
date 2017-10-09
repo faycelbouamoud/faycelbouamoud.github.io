@@ -1,0 +1,360 @@
+
+    @font-face {
+        font-family: "MultiBold";
+        src: url("../fonts/Muli-Bold.ttf");
+    }
+    
+    @font-face {
+        font-family: "SitkaI";
+        src: url("../fonts/SitkaI.ttc");
+    }
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+
+
+.redHeader {
+    background-color: #e74c3c;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 182px;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.whiteDiv {
+    background-color: #f2f8fa;
+    width: 92%;
+    height: 230px;
+    margin-left: 53px;
+    margin-top: 53px;
+    z-index: 4;
+    box-shadow: 2px 2px 9px 2px #BDC3C7;
+}
+
+.topDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    top:0;
+    right: 0;
+    left: 0;
+    position: sticky;
+    background-color: #e74c3c;
+    z-index: 5;
+}
+
+.lateral-menu {
+    list-style: none;
+    font-family: "MultiBold";
+    margin-left: 10%;
+    color: #f2f8fa;
+}
+
+.lateral-menu li {
+    display: inline;
+    padding-left: 7em;
+}
+
+.lateral-menu a {
+    color: #f2f8fa;
+    text-decoration: none;
+}
+
+.lateral-menu a:visited {
+    opacity: 0.8;
+}
+
+.lateral-menu a:hover {
+    opacity: 0.7;
+}
+
+.background {
+    background-color: #ecf0f1;
+}
+
+@media screen and (min-width:1248px) {  
+    .photo {
+        margin-top: -25px;
+        border-radius: 198px;
+        height: 198px;
+        width: 198px;
+        box-shadow: 0px 0px 5px 3px #BDC3C7;
+        margin-left: 3%;
+    }
+    
+    .quote {
+        margin-top: 9%;
+        font-family: "SitkaI";
+        font-size: 23px;
+        opacity: 0.2;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quoteSignLeft {
+        margin-left: -6%;
+        align-self: flex-start;
+        margin-bottom: -8%;
+        line-height: 1.2;
+    }
+    
+    .quoteSignRight {
+       margin-left: 100%;
+       margin-right: -6%; 
+       margin-top:  -8%;
+       align-self: flex-end;
+    }
+    
+    .info {
+        margin-left: 2%;
+    }
+
+    .additionalInfo {
+        font-family: "MultiBold";
+        font-size: 12px;
+        color: #747474;
+    }
+    
+    .profession {
+        font-family: "MultiBold";
+        margin-top: -25px;
+        margin-left: -10px;
+        color: #747474;
+    }
+    
+    
+    .quotePart1 {
+        line-height: 1.2;
+    }
+    
+    .quotePart2 {
+        margin-top: -3%;
+        margin-left: 10px;
+    }
+    
+    .infoGothic {
+        font-family: "MultiBold";
+        margin-left: -1%;
+        text-indent: -20px;
+    }
+
+    
+    .content {
+        margin: auto;
+        margin-top:10px;
+        margin-left: 4%;
+        width: 92%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        z-index: 4;
+    }
+    
+    
+    .title {
+        margin: auto;
+        text-align: center;
+        margin-left: 36%;
+        font-family: 'Tahoma';
+        font-weight: bold;
+        font-size: 50px;
+        opacity: 0.9;
+        color:#c3c8c9;
+        margin-top: 3%;
+    }
+    
+    .formation {
+        padding-top: 3%;
+        padding-right: 4%;
+        margin-top: 1%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        height: 300px;
+        width: 80%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .studies {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    
+    .study {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .diplome {
+        font-family: "MultiBold";
+        font-size: 12px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .diplomeIcon {
+        margin-left: 20%;
+        height: 160px;
+        width: 160px;
+        opacity: 0.7;
+        align-self: center;
+    }
+    
+    .diplomeIcon:hover {
+        opacity: 1;
+    }
+    
+    .skills {
+        margin: auto;
+        margin-top: 1%;
+        padding-top: 3%;
+        margin-left: 26%;
+        z-index: 4;
+        background-color: #f2f8fa;
+        height: 250px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .skillsGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .skillsLeft {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .technologie {
+        display: inline-block;
+        width: 150px;
+        font-family: "MultiBold";
+    }
+    
+    .skillsRight {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skill {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fullProgressBar {
+        height: 20px;
+        width: 150px;
+        background-color: #dadada;
+        margin-left: 30px;
+    }
+    
+    .progressBar {
+        height: 20px;
+        width: 100px;
+        background-color: #1abc9c;
+    }
+    
+    .experience {
+        padding-top: 3%;
+        padding-right: 6%;
+        padding-left: 3%;
+        margin-top: 1%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        height: 300px;
+        width: 80%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .entreprises {
+        margin: auto;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .entreprise {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    
+    .exp {
+        text-align: center;
+        font-family: "MultiBold";
+    }
+    
+    .proj {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+    }
+    
+    .year {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+    }
+    
+    .societe {
+        margin-left: 15%;
+        margin-top: 5%;
+        padding-bottom: 3%;
+        width: 300px;
+        height: 100px;
+        opacity: 0.5;
+    }
+    
+    .societe:hover {
+        opacity: 1;
+    }
+    
+    .redFooter {
+        margin-top: 2%;
+        background-color: #e74c3c;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+    }
+    
+    .socialMedia {
+        margin-top: 2.1%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        z-index: 4;
+    }
+    
+    .iconSocial {
+        height: 30px;
+        width: 30px;
+        opacity: 0.4;
+        margin-left: 1%;
+    }
+    
+    .iconSocial:hover {
+        opacity: 1;
+    }
+    
+}
