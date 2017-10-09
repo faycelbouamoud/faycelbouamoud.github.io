@@ -163,10 +163,10 @@
         margin: auto;
         margin-top: 1%;
         padding-top: 3%;
+        padding-bottom: 3%;
         margin-left: 20%;
         z-index: 4;
         background-color: #f2f8fa;
-        height: 250px;
         width: 92%;
         display: flex;
         flex-direction: column;
@@ -184,6 +184,7 @@
     .skillsLeft {
         display: flex;
         flex-direction: column;
+        margin-left: 3%;
     }
     
     .technologie {
@@ -196,6 +197,7 @@
     .skillsRight {
         display: flex;
         flex-direction: column;
+        margin-left: 3%;
     }
     
     .skill {
@@ -206,7 +208,7 @@
     
     .fullProgressBar {
         height: 20px;
-        width: 100%;
+        width: 90%;
         background-color: #dadada;
         margin-left: 30px;
     }
@@ -300,5 +302,1188 @@
     .iconSocial:hover {
         opacity: 1;
     }
+
+    .timeline-block {
+        display: block;
+        position: relative;
+    }
+
+    .timeline-vertical-bar {
+        height: 100%;
+        width: 0.15em;
+        background-color: #7F8C8D;
+        margin-left: 50%;
+        position: absolute;
+        opacity: 0.4;
+    }
     
+    .round-plus-button {
+        border-radius: 1em;
+        height: 1em;
+        width: 1em;
+        z-index:5;
+    }
+
+    .horizontal-line {
+        border: 0 none;
+        width: 24%;
+        height: 0em;
+        border-top: 0.07em dashed #95A5A6;
+        margin-top: 0.5em;
+    }
+
+    .timeline-instance-right {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        justify-content: center;
+        margin-right:40%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .timeline-instance-left {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-left: 40%;
+    }
+
+    .timeline-event {
+        margin-top: -3.9%;
+    }
+
+    .project-type {
+        text-align: center;
+        font-family: "MultiBold";
+        font-size: 0.9em;
+    }
+
+    .project-description {
+        text-align: center;
+        font-family: "SitkaI";
+        font-size: 0.8em;
+    }
+
+    .project-year {
+        font-family: "MultiBold";
+        padding: 0 3% 0 3%;
+        color : #E74C3C;
+        margin-top : -1%;
+    }
+
+    .project-technologies {
+        font-family: "SitkaI";
+        font-style: italic;
+        text-align: center;
+        font-size: 0.6em;
+        color : #C0392B;
+    }
+
+    .project-info {
+        font-family: "MultiBold";
+        text-align: center;
+    }
+
+    .project-line-icon-left {
+        position: absolute;
+        width: 50%;
+        left: -6.5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .project-line-icon-right {
+        position: absolute;
+        width: 50%;
+        right: -7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .round-endline {
+        border-radius: 0.5em;
+        height: 0.5em;
+        width: 0.5em;
+        background-color: #7F8C8D;
+        margin-top: 1.7%; 
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 934px) {
+    .lateral-menu {
+        list-style: none;
+        font-family: "MultiBold";
+        margin-left: 8%;
+        color: #f2f8fa;
+        font-size: 0.7em;
+    }
+
+    .whiteDiv {
+        background-color: #f2f8fa;
+        width: 92%;
+        height: 140px;
+        margin-left: 4%;
+        margin-top: 53px;
+        z-index: 4;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+
+    .photo {
+        margin-top: -3%;
+        border-radius: 150px;
+        height: 150px;
+        width: 150px;
+        box-shadow: 0px 0px 5px 3px #BDC3C7;
+        margin-left: 3%;
+    }
+
+    .info {
+        margin-left: 3%;
+    }
+
+    .photoProfil {
+        width: inherit;
+    }
+
+    .quote p {
+        display: inline;
+    }
+    
+    .quote {
+        margin-top: 6%;
+        font-family: "SitkaI";
+        font-size: 14px;
+        opacity: 0.2;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quoteSignLeft {
+        margin-left: -8%;
+        align-self: flex-start;
+        margin-bottom: -8%;
+        line-height: 1.2;
+    }
+    
+    .quoteSignRight {
+       margin-left: 100%;
+       margin-right: -8%; 
+       margin-top:  -8%;
+       align-self: flex-end;
+    }
+    
+    .additionalInfo {
+        font-family: "MultiBold";
+        font-size: 10px;
+        color: #747474;
+        margin-right: 2%;
+        padding-left: 2%;
+    }
+    
+    .profession {
+        font-family: "MultiBold";
+        margin-top: -7%;
+        margin-left: 3%;
+        color: #747474;
+        font-size: 15px;
+    }
+    
+    
+    .quotePart1 {
+        line-height: 1.2;
+    }
+    
+    .quotePart2 {
+        margin-left: 0%;
+        margin-top: -5%;
+    }
+    
+    .infoGothic {
+        font-family: "MultiBold";
+        margin-left: -1%;
+        text-indent: -20px;
+        font-size: 20px;
+    }
+
+    .content {
+        margin: auto;
+        margin-top:10px;
+        margin-left: 5%;
+        width: 91%;
+        display: flex;
+        flex-flow: column nowrap;
+        z-index: 4;
+    }
+    
+    .title {
+        margin: auto;
+        font-family: 'Tahoma';
+        font-weight: bold;
+        font-size: 30px;
+        opacity: 0.5;
+        color:#c3c8c9;
+        margin-top: 3%;
+    }
+    
+    .formation {
+        padding-top: 3%;
+        margin-top: 1%;
+        background-color: #ecf2f4;
+        width: 100%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .studies {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    
+    .study {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .diplome {
+        font-family: "MultiBold";
+        font-size: 0.7em;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .diplomeIcon {
+        margin-left: 20%;
+        height: 7em;
+        width: 7em;
+        opacity: 0.7;
+        align-self: center;
+    }
+    
+    .diplomeIcon:hover {
+        opacity: 1;
+    }
+    
+    .skills {
+        padding-left: 1%;
+        padding-right: 1%;
+        margin: auto;
+        margin-top: 1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        z-index: 4;
+        background-color: #f2f8fa;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .skillsGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .skillsLeft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    
+    .technologie {
+        display: inline-block;
+        width: 16.7em;
+        font-family: "MultiBold";
+        margin-right: 2em;
+    }
+    
+    .skillsRight {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    
+    .skill {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fullProgressBar {
+        margin-top: 2%;
+        height: 0.7em;
+        width: 80%;
+        background-color: #dadada;
+        margin-left: 30px;
+    }
+    
+    .progressBar {
+        height: 0.7em;
+        width: 70%;
+        background-color: #1abc9c;
+    }
+    
+    .experience {
+        padding-top: 3%;
+        padding-right: 6%;
+        margin-top: 1%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        width: 94%;
+        height: 60%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .entreprises {
+        margin: auto;
+        margin-left: 2%;
+        padding-right: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .entreprise {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    
+    .exp {
+        text-align: center;
+        font-family: "MultiBold";
+    }
+    
+    .proj {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+        font-size: 0.7em;
+    }
+    
+    .year {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: -3%;
+        font-size: 0.8em;
+    }
+    
+    .societe {
+        margin-left: 25%;
+        margin-top: 5%;
+        padding-bottom: 3%;
+        width: 200px;
+        height: 50px;
+        opacity: 0.5;
+    }
+    
+    .societe:hover {
+        opacity: 1;
+    }
+    
+    .redFooter {
+        margin-top: 2%;
+        background-color: #e74c3c;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+    }
+    
+    .socialMedia {
+        margin-top: 2.5%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        z-index: 4;
+    }
+    
+    .iconSocial {
+        height: 30px;
+        width: 30px;
+        opacity: 0.4;
+        margin-left: 1%;
+    }
+    
+    .iconSocial:hover {
+        opacity: 1;
+    }
+
+    .timeline-block {
+        display: block;
+        position: relative;
+    }
+
+    .timeline-vertical-bar {
+        height: 100%;
+        width: 0.15em;
+        background-color: #7F8C8D;
+        margin-left: 50%;
+        position: absolute;
+        opacity: 0.4;
+    }
+    
+    .round-plus-button {
+        border-radius: 1em;
+        height: 1em;
+        width: 1em;
+        z-index:5;
+    }
+
+    .horizontal-line {
+        border: 0 none;
+        width: 24%;
+        height: 0em;
+        border-top: 0.07em dashed #95A5A6;
+        margin-top: 0.5em;
+    }
+
+    .timeline-instance-right {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        justify-content: center;
+        margin-right:40%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .timeline-instance-left {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-left: 40%;
+    }
+
+    .timeline-event {
+        margin-top: -3.9%;
+    }
+
+    .project-type {
+        text-align: center;
+        font-family: "MultiBold";
+        font-size: 0.9em;
+    }
+
+    .project-description {
+        text-align: center;
+        font-family: "SitkaI";
+        font-size: 0.8em;
+    }
+
+    .project-year {
+        font-family: "MultiBold";
+        padding: 0 3% 0 3%;
+        color : #E74C3C;
+        margin-top : -1%;
+    }
+
+    .project-technologies {
+        font-family: "SitkaI";
+        font-style: italic;
+        text-align: center;
+        font-size: 0.6em;
+        color : #C0392B;
+    }
+
+    .project-info {
+        font-family: "MultiBold";
+        text-align: center;
+    }
+
+    .project-line-icon-left {
+        position: absolute;
+        width: 50%;
+        left: -6.5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .project-line-icon-right {
+        position: absolute;
+        width: 50%;
+        right: -7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .round-endline {
+        border-radius: 0.5em;
+        height: 0.5em;
+        width: 0.5em;
+        background-color: #7F8C8D;
+        margin-top: 1.7%; 
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+    .about-me  {
+        visibility: visible;
+        font-family: "MultiBold";
+        text-align: center;
+        color: #ECF0F1;
+        font-size: 1.5em;
+    }
+
+    .redHeader {
+        background-color: #e74c3c;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 3em;
+        position: absolute;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .hamburger {
+        display: block;
+        height: 3em;
+        width: 3em;
+        top: 1%;
+        left : 1%;
+        position: absolute;
+    }
+
+    .esprit {
+        font-family: "MultiBold";
+        font-size: 0.6em;
+        text-align: center;
+        margin-top: -5%;
+        margin-left: -18%;
+        opacity: 0.5;
+    }
+
+    .title-mobile {
+        width: 100%;
+        height: 3em;
+        background-color: #E74C3C;
+        margin-top: 0%;
+        right: 0%;
+        left: 0%;
+        padding: 12px 0 0 12px;
+        top: -1px;
+        position: sticky;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-me-title {
+        margin-top: 0%;
+        width: 100%;
+        height: 3em;
+        background-color: #E74C3C;
+        position: sticky;
+        top: -1px;
+        right: 0%;
+        left: 0%;
+        padding: 12px 0 12px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .topDiv {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .whiteDiv {
+        background-color: #f2f8fa;
+        width: 100%;
+        height: 37em;
+        margin-left: 0%;
+        margin-top: -10px;
+        z-index: 2;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+        padding-top: -5%;
+    }
+
+    .photo {
+        margin-top: 12%;
+        width: 20em;
+        border-radius: 0;
+        height: 30.417em;
+        box-shadow: 0px 0px 5px 3px #BDC3C7;
+        margin-left: 3%;
+        position: absolute;
+        top : 1%;
+        left: 1%;
+    }
+
+    .photoProfil {
+        height: inherit;
+        content: url("../images/faycelbouamoud_photo_carre.png");
+    }
+
+    .lateral-menu {
+        display: none;
+        list-style: none;
+        font-family: "MultiBold";
+        color: #f2f8fa;
+        font-size: 2em;
+        margin-top: 15%;
+        width: 50%;
+    }
+    .menu {
+        width: 100%;
+        height: 4em;
+        top:0;
+        right: 0;
+        left: 0;
+        position: relative;
+        background-color: #e74c3c;
+        z-index: 5;
+    }
+    .lateral-menu li {
+        display: list-item;
+        text-align: center;
+        margin: 10% 0 10% 0;
+    }
+
+    .info {
+        position: absolute;
+        top: 14%;
+        margin-top: 9%;
+        left: 60%;
+    }
+
+    .additionalInfo {
+        font-family: "MultiBold";
+        font-size: 1em;
+        color: #747474;
+        text-align: left;
+        position: absolute;
+        margin-top : 50%;
+        left: 60%;
+    }
+    
+    .profession {
+        font-family: "MultiBold";
+        margin-left: 1.5em;
+        font-size: 1em;
+        color: #747474;
+    }
+
+    .quote {
+        font-family: "SitkaI";
+        font-size: 1em;
+        opacity: 0.5-;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 30%;
+        left : 60%;
+    }
+    
+    
+    .quotePart1 {
+        line-height: 1.2;
+    }
+    
+    .quotePart2 {
+        margin-top: -3%;
+        margin-left: 10px;
+    }
+    
+    .infoGothic {
+        font-family: "MultiBold";
+        margin-left: -1%;
+        text-indent: -20px;
+        font-size: 1.7em;
+        text-align: left;
+    }
+
+    .content {
+        margin: auto;
+        margin-top:10px;
+        margin-left: 0%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        z-index: 4;
+    }
+    
+    
+    .title {
+        margin: auto;
+        text-align: center;
+        margin-left: 36%;
+        font-family: 'Tahoma';
+        font-weight: bold;
+        font-size: 50px;
+        opacity: 0.9;
+        color:#c3c8c9;
+        margin-top: 3%;
+        display: none;
+    }
+    
+    .formation {
+        margin-top: -1%;
+        background-color: #ecf2f4;
+        width: 100%;
+        height: 59em;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+        padding-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+    }
+    
+    .studies {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        display: none;
+    }
+    
+    .study {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .diplome {
+        font-family: "MultiBold";
+        font-size: 12px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    
+    .diplomeIcon {
+        margin-left: 20%;
+        height: 160px;
+        width: 160px;
+        opacity: 0.7;
+        align-self: center;
+    }
+    
+    .diplomeIcon:hover {
+        opacity: 1;
+    }
+    
+    .skills {
+        padding-left: 1%;
+        padding-right: 1%;
+        margin: auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        z-index: 4;
+        background-color: #f2f8fa;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 9px 2px #BDC3C7;
+    }
+    
+    .skillsGroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .skillsLeft {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .technologie {
+        display: inline-block;
+        width: 150px;
+        font-family: "MultiBold";
+        margin-left: 10%;
+        text-align: center;
+    }
+    
+    .skillsRight {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skill {
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fullProgressBar {
+        height: 0.5em;
+        width: 97%;
+        background-color: #dadada;
+        margin-left: 1%;
+    }
+    
+    .progressBar {
+        height: 0.5em;
+        width: 80%;
+        background-color: #1abc9c;
+    }
+    
+    .experience {
+        margin-top: -2%;
+        padding-right: 6%;
+        margin-right: 20%;
+        background-color: #ecf2f4;
+        width: 94%;
+        height: 60%;
+        box-shadow: -2px 2px 9px 2px #BDC3C7;
+        padding-bottom: 4%;
+    }
+    
+    .entreprises {
+        margin: auto;
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .entreprise {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        justify-content: center;
+    }
+    
+    .exp {
+        text-align: center;
+        font-family: "MultiBold";
+        font-size: 0.8em;
+    }
+    
+    .proj {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: 3%;
+        font-size: 0.8em;
+    }
+    
+    .year {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-top: 3%;
+        font-size: 0.9em;
+    }
+    
+    .societe {
+        margin:auto;
+        margin-top: 5%;
+        padding-bottom: 3%;
+        width: 15em;
+        height: 6em;;
+        opacity: 0.5;
+    }
+    
+    .societe:hover {
+        opacity: 1;
+    }
+    
+    .redFooter {
+        margin-top: 2%;
+        background-color: #e74c3c;
+        width: 100%;
+        height: 70px;
+        bottom: 0;
+    }
+    
+    .socialMedia {
+        margin-top: 2.1%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        z-index: 4;
+    }
+    
+    .iconSocial {
+        height: 30px;
+        width: 30px;
+        opacity: 0.4;
+        margin-left: 1%;
+    }
+    
+    .iconSocial:hover {
+        opacity: 1;
+    }
+
+    .timeline-block {
+        display: block;
+        position: relative;
+    }
+
+    .timeline-vertical-bar {
+        height: 100%;
+        width: 0.15em;
+        background-color: #7F8C8D;
+        margin-left: 50%;
+        position: absolute;
+        top:0;
+        opacity: 0.4;
+    }
+    
+    .round-plus-button {
+        border-radius: 1em;
+        height: 1em;
+        width: 1em;
+        z-index:5;
+    }
+
+    .horizontal-line {
+        border: 0 none;
+        width: 24%;
+        height: 0em;
+        border-top: 0.07em dashed #95A5A6;
+        margin-top: 0.5em;
+    }
+
+    .timeline-instance-right {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        justify-content: center;
+        margin-right:40%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .timeline-instance-left {
+        position: relative;
+        padding: 5em 0 5em 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-left: 40%;
+    }
+
+    .timeline-event {
+        margin-top: -3.9%;
+    }
+
+    .project-type {
+        text-align: center;
+        font-family: "MultiBold";
+        margin-left: -15%;
+        margin-right: -15%;
+    }
+
+    .project-description {
+        text-align: center;
+        font-family: "SitkaI";
+        font-size: 0.8em;
+    }
+
+    .project-year {
+        font-family: "MultiBold";
+        padding: 0 3% 0 3%;
+        color : #E74C3C;
+        margin-top : -1%;
+    }
+
+    .project-technologies {
+        font-family: "SitkaI";
+        font-style: italic;
+        text-align: center;
+        font-size: 12px;
+        color : #C0392B;
+    }
+
+    .project-info {
+        font-family: "MultiBold";
+        text-align: center;
+    }
+
+    .project-line-icon-left {
+        position: absolute;
+        width: 50%;
+        left: -6.5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .project-line-icon-right {
+        position: absolute;
+        width: 50%;
+        right: -7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .round-endline {
+        border-radius: 0.5em;
+        height: 0.5em;
+        width: 0.5em;
+        background-color: #7F8C8D;
+        margin-top: 1.7%; 
+    }
+
+    .studies-mobile {
+        visibility: visible;
+        width: 91%;
+        margin: auto;
+    }
+
+    .formation-year {
+        margin-left : -28%;
+    }
+
+    .info-experience {
+        visibility: visible;
+        background-color: #e6e6e6;
+        border-radius: 0.4em;
+        height: 7em;
+        border-right: 0.25em solid #9a9a9a;
+        border-bottom: 0.1em solid #9a9a9a;
+    }
+
+    .up-arrow {
+        visibility: visible;
+        width: 5%;
+        height: 5%;
+        margin-left: 50%;
+    }
+
+    
+    @media screen and (max-width:425px) and (min-width:320px)  {
+        .photo {
+            margin-top: 25%;
+            width: 10em;
+            border-radius: 0;
+            height: 30.417em;
+            box-shadow: 0px 0px 5px 3px #BDC3C7;
+            margin-left: 3%;
+            position: absolute;
+            top : 1%;
+            left: 1%;
+        }
+
+        .menu {
+            width: 100%;
+            height: 4em;
+            top:0;
+            right: 0;
+            left: 0;
+            position: sticky;
+            background-color: #e74c3c;
+            z-index: 4;
+        }
+
+        .lateral-menu {
+            display: none;
+            list-style: none;
+            font-family: "MultiBold";
+            color: #f2f8fa;
+            font-size: 2em;
+            margin-top: 40%;
+            margin-left: 0%;
+            width: 100%
+        }
+
+        .lateral-menu li {
+            display: list-item;
+            text-align: center;
+            margin: 10% 0 10% 0;
+            margin-left: -82%;
+        }
+
+        .lateral-menu > ul > li:first {
+            display: list-item;
+            text-align: center;
+            margin-top: 30%;
+            margin-left: -82%;
+        }
+    
+        .info {
+            position: absolute;
+            top: 14%;
+            margin-top: 20%;
+            left: 60%;
+        }
+    
+        .additionalInfo {
+            font-family: "MultiBold";
+            font-size: 0.7em;
+            color: #747474;
+            text-align: center;
+            position: absolute;
+            margin-top : 100%;
+            left: 55%;
+        }
+        
+        .profession {
+            font-family: "MultiBold";
+            margin-left: 1.5em;
+            font-size: 1em;
+            color: #747474;
+        }
+    
+        .quote {
+            font-family: "SitkaI";
+            font-size: 0.4em;
+            opacity: 0.5;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            margin-top: 30%;
+            left : 60%;
+            display: none;
+        }
+
+        .infoGothic {
+            font-size: 1em;;
+        }
+
+        .info-experience {
+            visibility: visible;
+            background-color: #e6e6e6;
+            border-radius: 0.4em;
+            height: 8em;
+            border-right: 0.25em solid #9a9a9a;
+            border-bottom: 0.1em solid #9a9a9a;
+        }
+
+        .project-line-icon-left {
+            position: absolute;
+            width: 50%;
+            left: -14.5%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+    
+        .project-line-icon-right {
+            position: absolute;
+            width: 50%;
+            right: -11%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+    }
+
 }
