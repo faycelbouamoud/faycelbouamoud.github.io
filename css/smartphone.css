@@ -952,9 +952,9 @@
         top:0;
         right: 0;
         left: 0;
-        position: relative;
+        position: sticky;
         background-color: #e74c3c;
-        z-index: 5;
+        z-index: 4;
     }
     .lateral-menu li {
         display: list-item;
