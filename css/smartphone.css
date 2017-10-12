@@ -839,6 +839,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px){
 
+    .shown{
+        display:block !important;
+    }
+
     .about-me  {
         visibility: visible;
         font-family: "MultiBold";
@@ -865,7 +869,8 @@
         width: 3em;
         top: 1%;
         left : 1%;
-        position: absolute;
+        position: fixed;
+        z-index: 10;
     }
 
     .esprit {
@@ -878,7 +883,7 @@
     }
 
     .title-mobile {
-        width: 100%;
+        width: 98%;
         height: 3em;
         background-color: #E74C3C;
         margin-top: 0%;
@@ -891,14 +896,18 @@
         display: flex;
         justify-content: center;
     }
+    
+    body{
+        overflow-x: hidden;
+    }
 
     .about-me-title {
         margin-top: 0%;
         width: 100%;
-        height: 3em;
+        height: 2em;
         background-color: #E74C3C;
-        position: sticky;
-        top: -1px;
+        position: fixed;
+        top: 0%;
         right: 0%;
         left: 0%;
         padding: 15px 0 17px 0;
@@ -957,9 +966,10 @@
         top:0;
         right: 0;
         left: 0;
-        position: sticky;
+        position: fixed;
         background-color: #e74c3c;
-        z-index: 4;
+        z-index: 5;
+        display: none;
     }
     .lateral-menu li {
         display: list-item;
@@ -1270,7 +1280,7 @@
         padding: 5em 0 5em 0;
         display: flex;
         justify-content: center;
-        margin-right:40%;
+        margin-right:33%;
     }
 
     .clear {
@@ -1283,7 +1293,7 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        margin-left: 40%;
+        margin-left: 46%;
     }
 
     .timeline-event {
@@ -1379,6 +1389,36 @@
 
     
     @media screen and (max-width:425px) and (min-width:320px)  {
+        .about-me-title {
+            margin-top: 0%;
+            width: 92.4%;
+            height: 2em;
+            background-color: #E74C3C;
+            position: fixed;
+            top: 0%;
+            right: 0%;
+            left: 0%;
+            padding: 15px 0 17px 0;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+        }
+
+        .title-mobile {
+            width: 96%;
+            height: 3em;
+            background-color: #E74C3C;
+            margin-top: 0%;
+            right: 0%;
+            left: 0%;
+            padding: 15px 0 0 17px;
+            top: -1px;
+            position: sticky;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+        }
+
         .photo {
             margin-top: 25%;
             width: 13em;
@@ -1392,14 +1432,19 @@
         }
 
         .menu {
-            width: 100%;
+            width: 96%;
             height: 4em;
             top:0;
             right: 0;
             left: 0;
-            position: sticky;
+            position: fixed;
             background-color: #e74c3c;
-            z-index: 4;
+            z-index: 6;
+            display: none;
+        }
+
+        .shown{
+            display:block !important;
         }
 
         .lateral-menu {
@@ -1430,7 +1475,7 @@
         .info {
             position: absolute;
             top: 14%;
-            margin-top: 20%;
+            margin-top: 45%;
             left: 60%;
         }
     
@@ -1438,10 +1483,10 @@
             font-family: "MultiBold";
             font-size: 0.7em;
             color: #747474;
-            text-align: center;
+            text-align: left;
             position: absolute;
-            margin-top : 100%;
-            left: 55%;
+            margin-top : 107%;
+            left: 3%;
         }
         
         .profession {
@@ -1464,7 +1509,8 @@
         }
 
         .infoGothic {
-            font-size: 1em;;
+            font-size: 0.88em;
+            margin-left: 11%;
         }
 
         .info-experience {
@@ -1492,6 +1538,91 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
+        }
+
+        @media screen and (max-width:375px) {
+
+            .info {
+                position: absolute;
+                top: 14%;
+                margin-top: 21%;
+                left: 64%;
+            }
+
+            .infoGothic {
+                font-family: "MultiBold";
+                margin-left: -1%;
+                text-indent: -20px;
+                font-size: 20px;
+            }
+
+            .about-me-title {
+                margin-top: 0%;
+                width: 89.9%;
+                height: 2em;
+                background-color: #E74C3C;
+                position: fixed;
+                top: 0%;
+                right: 0%;
+                left: 0%;
+                padding: 15px 0 17px 0;
+                z-index: 10;
+                display: flex;
+                justify-content: center;
+            }
+
+            .additionalInfo {
+                font-family: "MultiBold";
+                font-size: 10px;
+                color: #747474;
+                margin-right: 2%;
+                padding-left: 2%;
+                margin-top: 118%;
+            }
+
+            @media screen and (max-width:320px){
+                .photo {
+                    margin-top: 25%;
+                    width: 13em;
+                    border-radius: 0;
+                    height: 19.417em;
+                    box-shadow: 0px 0px 5px 3px #BDC3C7;
+                    margin-left: 3%;
+                    position: absolute;
+                    top : 1%;
+                    left: 1%;
+                }
+
+                .info {
+                    position: absolute;
+                    top: 14%;
+                    margin-top: 120%;
+                    left: 9%;
+                }
+
+                 .additionalInfo {
+                font-family: "MultiBold";
+                font-size: 10px;
+                color: #747474;
+                margin-right: 2%;
+                padding-left: 2%;
+                margin-top: 143%;
+            }
+            .about-me-title {
+                margin-top: 0%;
+                width: 86.5%;
+                height: 2em;
+                background-color: #E74C3C;
+                position: fixed;
+                top: 0%;
+                right: 0%;
+                left: 0%;
+                padding: 15px 0 17px 0;
+                z-index: 10;
+                display: flex;
+                justify-content: center;
+            }
+            }
         }
         
     }

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bienvenue dans mon portfolio personnel!</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="./css/smartphone.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="./css/smartphone.css?v=1.0">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
@@ -25,6 +25,7 @@
             <div class="whiteDiv">
                     <div class="topDiv">
                         <div class="about-me-title">
+                                <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
                             <span class="about-me">Qui suis-je ?</span>
                         </div>
                         <div class="photo">
@@ -52,6 +53,7 @@
             </div>
    
     <div class="content">
+            <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
             <span class="title">.. Formation ..</span>
             <div class="title-mobile">
                     <span class="about-me">Formation</span>
@@ -211,6 +213,7 @@
         </div>
         <span class="title">.. Projets ..</span>
         <div class="title-mobile">
+                <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
                 <span class="about-me">Projets</span>
             </div>
         <div class="skills" id="projects">
