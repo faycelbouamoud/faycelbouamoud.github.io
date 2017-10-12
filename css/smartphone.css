@@ -1492,7 +1492,7 @@
         .profession {
             font-family: "MultiBold";
             margin-left: 1.5em;
-            font-size: 1em;
+            font-size: 13px;
             color: #747474;
         }
     
@@ -1545,7 +1545,7 @@
             .info {
                 position: absolute;
                 top: 14%;
-                margin-top: 21%;
+                margin-top: 54%;
                 left: 64%;
             }
 
@@ -1553,12 +1553,12 @@
                 font-family: "MultiBold";
                 margin-left: -1%;
                 text-indent: -20px;
-                font-size: 20px;
+                font-size: 14px;
             }
 
             .about-me-title {
                 margin-top: 0%;
-                width: 89.9%;
+                width: 85.9%;
                 height: 2em;
                 background-color: #E74C3C;
                 position: fixed;
