@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,294 +10,329 @@
     <link rel="stylesheet" href="./css/smartphone.css?v=1.0.2">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/main.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
+
 <body class="background">
     <div class="redHeader" id="profile"></div>
     <div class="menu">
         <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
         <ul class="lateral-menu">
-            <a href="#profile" onclick="toggleMenu()"><li>Profile</li></a>
-            <a href="#formation" onclick="toggleMenu()"><li>Formation</li></a>
-            <a href="#skills" onclick="toggleMenu()"><li>Skills</li></a>
-            <a href="#experience" onclick="toggleMenu()"><li>Experience</li></a>
-            <a href="#projects" onclick="toggleMenu()"><li>Projets</li></a>
+            <a href="#profile" onclick="toggleMenu()">
+                <li>Profile</li>
+            </a>
+            <a href="#formation" onclick="toggleMenu()">
+                <li>Formation</li>
+            </a>
+            <a href="#skills" onclick="toggleMenu()">
+                <li>Skills</li>
+            </a>
+            <a href="#experience" onclick="toggleMenu()">
+                <li>Experience</li>
+            </a>
+            <a href="#projects" onclick="toggleMenu()">
+                <li>Projets</li>
+            </a>
         </ul>
     </div>
-            <div class="whiteDiv">
-                    <div class="topDiv">
-                        <div class="about-me-title">
-                                <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
-                            <span class="about-me">Qui suis-je ?</span>
-                        </div>
-                        <div class="photo">
-                            <img src="./images/faycel_bouamoud_photo.png" class="photoProfil" alt="">
-                        </div>
-                        <div class="info">
-                            <h1 class="infoGothic">Faycel BOUAMOUD</h1>
-                            <h3 class="profession">Etudiant ingénieur,</h3>
-                            <p class="esprit"> à l'école supérieure privée d'ingénierie et de technologie</p>
-                        </div>
-                        <div class="quote">
-                            <img src="./images/left-quote.svg" class="quoteSignLeft" alt="">
-                           <p class="quotePart1">Aimez ce que vous faites,</p>
-                           <p class="quotePart2"> pour faire ce que vous aimez</p>
-                           <img src="./images/right-quote.svg" class="quoteSignRight" alt="">
-                        </div>
-                        <div class="additionalInfo">
-                            <p>+216 58 27 88 01</p>
-                            <p>Ariana elSoghra, Ariana, 2083</p>
-                            <p>faycel.bouamoud@esprit.tn</p>
-                            <p>31/05/1994</p>
-                            <p>Tunisienne</p>
-                        </div>
-                    </div>
+    <div class="whiteDiv">
+        <div class="topDiv">
+            <div class="about-me-title">
+                <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
+                <span class="about-me">Qui suis-je ?</span>
             </div>
-   
+            <div class="photo">
+                <img src="./images/faycel_bouamoud_photo.png" class="photoProfil" alt="">
+            </div>
+            <div class="info">
+                <h1 class="infoGothic">Faycel BOUAMOUD</h1>
+                <h3 class="profession">Etudiant ingénieur,</h3>
+                <p class="esprit"> à l'école supérieure privée d'ingénierie et de technologie</p>
+            </div>
+            <div class="quote">
+                <img src="./images/left-quote.svg" class="quoteSignLeft" alt="">
+                <p class="quotePart1">Aimez ce que vous faites,</p>
+                <p class="quotePart2"> pour faire ce que vous aimez</p>
+                <img src="./images/right-quote.svg" class="quoteSignRight" alt="">
+            </div>
+            <div class="additionalInfo">
+                <p>+216 58 27 88 01</p>
+                <p>Ariana elSoghra, Ariana, 2083</p>
+                <p>faycel.bouamoud@esprit.tn</p>
+                <p>31/05/1994</p>
+                <p>Tunisienne</p>
+            </div>
+        </div>
+    </div>
+
     <div class="content">
-            <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
-            <span class="title">.. Formation ..</span>
-            <div class="title-mobile">
-                    <span class="about-me">Formation</span>
-            </div>
-        <div id="formation" class="formation">
-                
-            <div class="studies">
-                <div class="study">
-                    <img class="diplomeIcon" src="./images/certificate.svg" alt="" srcset="">
-                    <p class="diplome">Baccalauréat en science de l'informatique 2013</p>
-                    <p class="diplome">Mention très bien</p>
-                </div>   
-                <div class="study">
-                        <img class="diplomeIcon" src="./images/graduation_prepa.svg" alt="" srcset="">
-                        <p class="diplome">Préparatoire intégré: MPI/GL 2013-2015</p>
-                        <p class="diplome">Mention Passable</p>
-                </div>          
-                <div class="study">
-                            <img class="diplomeIcon" src="./images/graduation.svg" alt="" srcset="">
-                            <p class="diplome">Licence informatique en SYSTEME INFORMATIQUE ET LOGICIEL 2015-2016</p>
-                            <p class="diplome">Mention Assez-bien</p>
-                </div>                       
-            </div>
-            <div class="studies-mobile">
-                    <div class="timeline-block">
-                            <div class="timeline-vertical-bar"></div>
-                            <div class="timeline-instance-right">
-                                    <div class="timeline-event">
-                                            <h4 class="project-type">Baccalauréat</h4>
-                                            <p class="project-description">en Science de l'informatique</p>
-                                            <p class="project-description"> Mention : Très bien</p>
-                                        </div>
-                                   <div class="project-line-icon-right">
-                                        <div class="round-endline"></div>
-                                        <div class="horizontal-line"></div>
-                                        <img src="./images/certificate.svg" alt="" class="round-plus-button">
-                                        <span class="project-year">2013</span>
-                                   </div>
-                            </div>
-                            <div class="timeline-instance-left">
-                                    <div class="timeline-event">
-                                            <h4 class="project-type">Préparatoire intégré</h4>
-                                            <p class="project-description">Math Physique Informatique</p>
-                                            <p class="project-description">  Génie Logiciel</p>
-                                            <p class="project-info">à l'INSAT</p>
-                                    </div>
-                                    <div class="project-line-icon-left">
-                                            <div class="round-endline"></div>
-                                        <div class="horizontal-line"></div>
-                                        <img src="./images/graduation_prepa.svg" alt="" class="round-plus-button">
-                                        <span  class="project-year formation-year">2013-2015</span>
-                                    </div>
-                                  
-                            </div>
-                            <div class="timeline-instance-right">
-                                    <div class="timeline-event">
-                                            <h4 class="project-type">Licence Informatique</h4>
-                                            <p class="project-description">En SYSTEME INFORMATIQUE ET LOGICIEL</p>
-                                            <p class="project-info">à l'INSAT</p>
-                                        </div>
-                                    <div class="project-line-icon-right">
-                                            <div class="round-endline"></div>
-                                        <div class="horizontal-line"></div>
-                                        <img src="./images/graduation.svg" alt="" class="round-plus-button">
-                                        <span class="project-year">2016</span>
-                                    </div>
-                            </div>
-                        </div>
-            </div>
-        </div>
-        <span class="title">.. Skills ..</span>
+        <span class="title" data-aos="fade-right">.. Expérience ..</span>
         <div class="title-mobile">
-                <span class="about-me">Skills</span>
-            </div>
-        <div id="skills" class="skills">
-            <div class="skillsGroup">
-                <div class="skillsLeft">
-                    <div class="skill">
-                        <span class="technologie">PHP/Symfony 3</span>
-                        <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                    <div class="skill">
-                        <span class="technologie">PHP/Laravel 5</span>
-                        <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                    <div class="skill">
-                        <span class="technologie">PHP/Slim 3</span>
-                        <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                    <div class="skill">
-                        <span class="technologie">Java/JavaFX</span>
-                        <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                    <div class="skill">
-                        <span class="technologie">JavaEE 7</span>
-                         <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                    <div class="skill">
-                        <span class="technologie">C#/ASP.NET</span>
-                        <div class="fullProgressBar"><div class="progressBar"></div></div>
-                    </div>
-                </div>
-                <div class="skillsRight">
-                        <div class="skill">
-                                <span class="technologie">MongoDB</span>
-                                <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                            <div class="skill">
-                                <span class="technologie">MySQL</span>
-                                <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                            <div class="skill">
-                                <span class="technologie">Angular 2</span>
-                                <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                            <div class="skill">
-                                <span class="technologie">NodeJS</span>
-                                <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                            <div class="skill">
-                                <span class="technologie">Photoshop</span>
-                                 <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                            <div class="skill">
-                                <span class="technologie">Illsutrator</span>
-                                <div class="fullProgressBar"><div class="progressBar"></div></div>
-                            </div>
-                </div>
-            </div>
+            <span class="about-me">Expérience</span>
         </div>
-        <span class="title">.. Expérience ..</span>
-        <div class="title-mobile">
-                <span class="about-me">Expérience</span>
-            </div>
-        <div id="experience" class="experience">
+        <div id="experience" class="experience" data-aos="fade-right">
             <div class="entreprises">
                 <div class="entreprise">
                     <img class="societe" src="./images/format2.jpg" alt="">
-                    <img src="./images/triangle.png" alt="" class="up-arrow"> 
+                    <img src="./images/triangle.png" alt="" class="up-arrow">
                     <div class="info-experience">
-                            <p class="exp">Stage de Fin d'étude</p>
-                            <p class="proj">Conception et réalisation d'une application de gestion et d'archivage des vols</p>
-                            <p class="year">2016</p>
+                        <p class="exp">Stage de Fin d'étude</p>
+                        <p class="proj">Conception et réalisation d'une application de gestion et d'archivage des vols</p>
+                        <p class="year">2016</p>
                     </div>
                 </div>
                 <div class="entreprise">
-                      <img src="./images/flag_engineering_logo.jpg" alt="" class="societe"> 
-                      <img src="./images/triangle.png" alt="" class="up-arrow"> 
-                      <div class="info-experience">
+                    <img src="./images/flag_engineering_logo.jpg" alt="" class="societe">
+                    <img src="./images/triangle.png" alt="" class="up-arrow">
+                    <div class="info-experience">
                         <p class="exp">Stage d'été</p>
                         <p class="proj">Conception et réalisation d'une application mobile en marchandizing</p>
                         <p class="year">2017</p>
-                      </div>
-                     
+                    </div>
+
                 </div>
             </div>
         </div>
-        <span class="title">.. Projets ..</span>
+        <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
+        <span class="title" data-aos="fade-left">.. Formation ..</span>
         <div class="title-mobile">
-                <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
-                <span class="about-me">Projets</span>
+            <span class="about-me">Formation</span>
+        </div>
+        <div id="formation" class="formation" data-aos="fade-left">
+
+            <div class="studies">
+                <div class="study" data-aos="zoom-in">
+                    <img class="diplomeIcon" src="./images/certificate.svg" alt="" srcset="">
+                    <p class="diplome">Baccalauréat en science de l'informatique 2013</p>
+                    <p class="diplome">Mention très bien</p>
+                </div>
+                <div class="study" data-aos="zoom-in">
+                    <img class="diplomeIcon" src="./images/graduation_prepa.svg" alt="" srcset="">
+                    <p class="diplome">Préparatoire intégré: MPI/GL 2013-2015</p>
+                    <p class="diplome">Mention Passable</p>
+                </div>
+                <div class="study" data-aos="zoom-in">
+                    <img class="diplomeIcon" src="./images/graduation.svg" alt="" srcset="">
+                    <p class="diplome">Licence informatique en SYSTEME INFORMATIQUE ET LOGICIEL 2015-2016</p>
+                    <p class="diplome">Mention Assez-bien</p>
+                </div>
             </div>
-        <div class="skills" id="projects">
-            <div class="timeline-block">
-                <div class="timeline-vertical-bar"></div>
-                <div class="timeline-instance-right">
+            <div class="studies-mobile" data-aos="zoom-in-right">
+                <div class="timeline-block">
+                    <div class="timeline-vertical-bar"></div>
+                    <div class="timeline-instance-right" data-aos="fade-right">
                         <div class="timeline-event">
-                                <h4 class="project-type">Projet Scolaire</h4>
-                                <p class="project-description">Conception et réalisation d'une application</p>
-                                <p class="project-description"> de location des voitures</p>
-                                <p class="project-info">Technologies: </p>
-                                <p class="project-technologies">PHP5/MySQL/HTML5/CSS3</p>
-                            </div>
-                       <div class="project-line-icon-right">
+                            <h4 class="project-type">Licence Informatique</h4>
+                            <p class="project-description">En SYSTEME INFORMATIQUE ET LOGICIEL</p>
+                            <p class="project-info">à l'INSAT</p>
+                        </div>
+                        <div class="project-line-icon-right">
                             <div class="round-endline"></div>
                             <div class="horizontal-line"></div>
-                            <img src="./images/plus.svg" alt="" class="round-plus-button">
-                            <span class="project-year">2014</span>
-                       </div>
-                </div>
-                <div class="timeline-instance-left">
-                        <div class="timeline-event">
-                                <h4 class="project-type">Projet fin d'etude</h4>
-                                <p class="project-description">Conception et réalisation d'une application</p>
-                                <p class="project-description"> de programmation et archivage des vols</p>
-                                <p class="project-info">Technologies: </p>
-                                <p class="project-technologies">Symfony2.8/MongoDB</p>
-                                <p class="project-technologies">Bootstrap3</p>
-                        </div>
-                        <div class="project-line-icon-left">
-                                <div class="round-endline"></div>
-                            <div class="horizontal-line"></div>
-                            <img src="./images/plus.svg" alt="" class="round-plus-button">
-                            <span  class="project-year">2016</span>
-                        </div>
-                      
-                </div>
-                <div class="timeline-instance-right">
-                        <div class="timeline-event">
-                                <h4 class="project-type">Projet satge</h4>
-                                <p class="project-description">Conception et réalisation d'une application</p>
-                                <p class="project-description"> de marchandizing</p>
-                                <p class="project-info">Technologies: </p>
-                                <p class="project-technologies">Lumen/MySQL/Ionic 1/Angular 1</p>
-                            </div>
-                        <div class="project-line-icon-right">
-                                <div class="round-endline"></div>
-                            <div class="horizontal-line"></div>
-                            <img src="./images/plus.svg" alt="" class="round-plus-button">
+                            <img src="./images/graduation.svg" alt="" class="round-plus-button">
                             <span class="project-year">2016</span>
                         </div>
-                </div>
-                <div class="timeline-instance-left">
+                    </div>
+                    <div class="timeline-instance-left" data-aos="fade-left">
                         <div class="timeline-event">
-                                <h4 class="project-type">Projet Scolaire</h4>
-                                <p class="project-description">Conception et réalisation d'une application</p>
-                                <p class="project-description"> Pour les rondanneurs (Web, Desktop, Mobile)</p>
-                                <p class="project-info">Technologies: </p>
-                                <p class="project-technologies">Symfony 3/MySQL</p>
-                                <p class="project-technologies">JavaFX/Codename1</p>
-                            </div>
+                            <h4 class="project-type">Préparatoire intégré</h4>
+                            <p class="project-description">Math Physique Informatique</p>
+                            <p class="project-description"> Génie Logiciel</p>
+                            <p class="project-info">à l'INSAT</p>
+                        </div>
                         <div class="project-line-icon-left">
                             <div class="round-endline"></div>
                             <div class="horizontal-line"></div>
-                            <img src="./images/plus.svg" alt="" class="round-plus-button">
-                            <span class="project-year">2017</span>
+                            <img src="./images/graduation_prepa.svg" alt="" class="round-plus-button">
+                            <span class="project-year formation-year">2013-2015</span>
                         </div>
-                </div>
-                <div class="timeline-instance-right">
+                    </div>
+                    <div class="timeline-instance-right" data-aos="fade-right">
                         <div class="timeline-event">
-                                <h4 class="project-type">Projet scolaire</h4>
-                                <p class="project-description">Conception et réaliastion d'une application</p>
-                                <p class="project-description"> pour les amateurs de l'art</p>
-                                <p class="project-info">Technologies: </p>
-                                <p class="project-technologies">ASP.NET/JavaEE 7/MySQL/Angular 2/Ionic 2</p>
-                            </div>
-                            <div class="project-line-icon-right">
-                                    <div class="round-endline"></div>
-                                <div class="horizontal-line"></div>
-                                <img src="./images/plus.svg" alt="" class="round-plus-button">
-                                <span class="project-year">2017</span>
-                            </div>
-                        
+                            <h4 class="project-type">Baccalauréat</h4>
+                            <p class="project-description">en Science de l'informatique</p>
+                            <p class="project-description"> Mention : Très bien</p>
+                        </div>
+                        <div class="project-line-icon-right">
+                            <div class="round-endline"></div>
+                            <div class="horizontal-line"></div>
+                            <img src="./images/certificate.svg" alt="" class="round-plus-button">
+                            <span class="project-year">2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="title" data-aos="fade-right">.. Skills ..</span>
+        <div class="title-mobile">
+            <span class="about-me">Skills</span>
+        </div>
+        <div id="skills" class="skills" data-aos="fade-right">
+            <div class="skillsGroup">
+                <div class="skillsLeft">
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">PHP/Symfony 3</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">PHP/Laravel 5</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">PHP/Slim 3</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">Java/JavaFX</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">JavaEE 7</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">C#/ASP.NET</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillsRight">
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">MongoDB</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">MySQL</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">Angular 2</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">NodeJS</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">Photoshop</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                    <div class="skill" data-aos="fade-down">
+                        <span class="technologie">Illsutrator</span>
+                        <div class="fullProgressBar">
+                            <div class="progressBar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="title" data-aos="fade-left">.. Projets ..</span>
+        <div class="title-mobile">
+            <img src="./images/menu.svg" alt="" class="hamburger" onclick="toggleMenu()">
+            <span class="about-me">Projets</span>
+        </div>
+        <div class="skills" id="projects" data-aos="fade-left">
+            <div class="timeline-block">
+                <div class="timeline-vertical-bar"></div>
+                <div class="timeline-instance-right" data-aos="fade-right">
+                    <div class="timeline-event">
+                        <h4 class="project-type">Projet scolaire</h4>
+                        <p class="project-description">Conception et réaliastion d'une application</p>
+                        <p class="project-description"> pour les amateurs de l'art</p>
+                        <p class="project-info">Technologies: </p>
+                        <p class="project-technologies">ASP.NET/JavaEE 7/MySQL/Angular 2/Ionic 2</p>
+                    </div>
+                    <div class="project-line-icon-right">
+                        <div class="round-endline"></div>
+                        <div class="horizontal-line"></div>
+                        <img src="./images/plus.svg" alt="" class="round-plus-button">
+                        <span class="project-year">2017</span>
+                    </div>
+                </div>
+                <div class="timeline-instance-left" data-aos="fade-left">
+                    <div class="timeline-event">
+                        <h4 class="project-type">Projet Scolaire</h4>
+                        <p class="project-description">Conception et réalisation d'une application</p>
+                        <p class="project-description"> Pour les rondanneurs (Web, Desktop, Mobile)</p>
+                        <p class="project-info">Technologies: </p>
+                        <p class="project-technologies">Symfony 3/MySQL</p>
+                        <p class="project-technologies">JavaFX/Codename1</p>
+                    </div>
+                    <div class="project-line-icon-left">
+                        <div class="round-endline"></div>
+                        <div class="horizontal-line"></div>
+                        <img src="./images/plus.svg" alt="" class="round-plus-button">
+                        <span class="project-year">2017</span>
+                    </div>
+                </div>
+                <div class="timeline-instance-right" data-aos="fade-right">
+                    <div class="timeline-event">
+                        <h4 class="project-type">Projet satge</h4>
+                        <p class="project-description">Conception et réalisation d'une application</p>
+                        <p class="project-description"> de marchandizing</p>
+                        <p class="project-info">Technologies: </p>
+                        <p class="project-technologies">Lumen/MySQL/Ionic 1/Angular 1</p>
+                    </div>
+                    <div class="project-line-icon-right">
+                        <div class="round-endline"></div>
+                        <div class="horizontal-line"></div>
+                        <img src="./images/plus.svg" alt="" class="round-plus-button">
+                        <span class="project-year">2016</span>
+                    </div>
+                </div>
+                <div class="timeline-instance-left" data-aos="fade-left">
+                    <div class="timeline-event">
+                        <h4 class="project-type">Projet fin d'etude</h4>
+                        <p class="project-description">Conception et réalisation d'une application</p>
+                        <p class="project-description"> de programmation et archivage des vols</p>
+                        <p class="project-info">Technologies: </p>
+                        <p class="project-technologies">Symfony2.8/MongoDB</p>
+                        <p class="project-technologies">Bootstrap3</p>
+                    </div>
+                    <div class="project-line-icon-left">
+                        <div class="round-endline"></div>
+                        <div class="horizontal-line"></div>
+                        <img src="./images/plus.svg" alt="" class="round-plus-button">
+                        <span class="project-year">2016</span>
+                    </div>
+                </div>
+                <div class="timeline-instance-right" data-aos="fade-right">
+                    <div class="timeline-event">
+                        <h4 class="project-type">Projet Scolaire</h4>
+                        <p class="project-description">Conception et réalisation d'une application</p>
+                        <p class="project-description"> de location des voitures</p>
+                        <p class="project-info">Technologies: </p>
+                        <p class="project-technologies">PHP5/MySQL/HTML5/CSS3</p>
+                    </div>
+                    <div class="project-line-icon-right">
+                        <div class="round-endline"></div>
+                        <div class="horizontal-line"></div>
+                        <img src="./images/plus.svg" alt="" class="round-plus-button">
+                        <span class="project-year">2014</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -308,6 +344,10 @@
             <img src="./images/twitter.svg" alt="" class="iconSocial">
             <img src="./images/linkedin.svg" alt="" class="iconSocial">
         </div>
+        <script>
+        AOS.init();
+    </script>
     </footer>
 </body>
+
 </html>

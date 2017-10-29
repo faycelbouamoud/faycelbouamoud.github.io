@@ -334,7 +334,7 @@
 
     .timeline-instance-right {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         justify-content: center;
         margin-right:40%;
@@ -346,7 +346,7 @@
 
     .timeline-instance-left {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -753,7 +753,7 @@
 
     .timeline-instance-right {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         justify-content: center;
         margin-right:40%;
@@ -765,7 +765,7 @@
 
     .timeline-instance-left {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -1277,7 +1277,7 @@
 
     .timeline-instance-right {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         justify-content: center;
         margin-right:33%;
@@ -1289,7 +1289,7 @@
 
     .timeline-instance-left {
         position: relative;
-        padding: 5em 0 5em 0;
+        padding: 2em 0 2em 0;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
